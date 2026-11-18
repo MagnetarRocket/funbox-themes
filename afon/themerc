@@ -1,2 +1,49 @@
 # Simple test theme that tries it's best to look like plan9's rio. Apperance wise in pratice, it resembles lola however…
 # https://www.opendesktop.org/p/1006925/ (for some colors)
+# https://gist.github.com/MagnetarRocket/cd8fac5faf54206034a2afa1d8400e35 (The main palate used)
+
+# Geometry:
+
+padding.height: 4
+padding.width: 4
+border.width: 4
+window.client.padding.width: 1
+window.client.padding.height: 1
+window.handle.width: 4
+menu.border.width: 2
+menu.overlap.x: 0
+menu.overlap.y: 0
+menu.separator.width: 2
+
+# Text:
+
+# window.active.label.text.font: shadow=y:shadowtint=70:shadowoffset=1
+# window.inactive.label.text.font: shadow=y:shadowtint=20:shadowoffset=1
+# menu.items.font: shadow=n
+# menu.title.text.font: shadow=y:shadowtint=70:shadowoffset=1
+window.label.text.justify: left
+menu.title.text.justify: right
+
+# Colors:
+
+window.active.border.color: #008888
+window.inactive.border.color: #AAFFFF
+window.active.client.color: #008888
+window.inactive.client.color: #AAFFFF
+
+window.active.title.bg: #008888
+window.inactive.title.bg: #AAFFFF
+
+window.active.label.text.color: #ffffff
+window.inactive.label.text.color: #000000
+
+menu.border.color: #448844
+menu.seprator.color: #AAFFAA
+menu.items.bg:       Solid Flat
+menu.items.bg.color: #AAFFAA
+menu.items.text.color: #000000
+
+menu.items.disabled.text.color: #aaaaaa
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #448844
+menu.items.active.text.color: #AAFFAA
